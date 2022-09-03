@@ -34,10 +34,13 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	audiosense-pi.dtbo \
 	audremap.dtbo \
 	balena-fin.dtbo \
+	camera-mux-2port.dtbo \
+	camera-mux-4port.dtbo \
 	cap1106.dtbo \
 	chipdip-dac.dtbo \
 	cma.dtbo \
 	cutiepi-panel.dtbo \
+	dacberry400.dtbo \
 	dht11.dtbo \
 	dionaudio-kiwi.dtbo \
 	dionaudio-loco.dtbo \
@@ -75,6 +78,7 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	hdmi-backlight-hwhack-gpio.dtbo \
 	hifiberry-amp.dtbo \
 	hifiberry-amp100.dtbo \
+	hifiberry-amp3.dtbo \
 	hifiberry-dac.dtbo \
 	hifiberry-dacplus.dtbo \
 	hifiberry-dacplusadc.dtbo \
@@ -108,7 +112,9 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	imx258.dtbo \
 	imx290.dtbo \
 	imx296.dtbo \
+	imx327.dtbo \
 	imx378.dtbo \
+	imx462.dtbo \
 	imx477.dtbo \
 	imx519.dtbo \
 	iqaudio-codec.dtbo \
